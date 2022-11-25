@@ -1,0 +1,30 @@
+.etc .link {
+    background: #d5c2a6;
+    color: #2b385d;
+    position: fixed;
+    right: 0;
+    width: 2.8%;
+    height: 170px;
+    bottom: 150px;
+}
+.etc .link a {
+    color: #2b385d;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    padding-bottom: 9px;
+    transition: all 0.5s;
+}
+.etc .link a:hover {
+    color: #d5c2a6;
+    background: #2b385d;
+    transform: scale(1.2);
+    z-index: 999;
+}
+@media screen and (max-width: 426px) {
+    .etc .link {
+        display: none;
+   }
+}

@@ -1,0 +1,357 @@
+
+
+
+
+.Cntfuter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background: #2B385D;
+}
+.Logofuter{
+    width: 404px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.Logofuter img{
+    width: 100%;
+}
+.FtBigcards{
+    margin-top: 25px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CardsFuter{
+    display: flex;  
+    width: 85%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.CardsFuter > hr{
+    color: #D5C2A6;
+    width: 0;
+    height: 300px; 
+    margin-top: -25px;
+}
+.FtCard1{
+    width: 350px;
+    height: 250px;
+}
+.FtCard1 > h1{
+    font-size: 25px;
+}
+.Ftlittlcard{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+.Ico1{
+    color: #D5C2A6;
+}
+.Ftlittlcard > h3{
+    margin-left: 5px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+.Ftlittlcard > h3> p{
+    margin-left: 5px;
+    font-weight: 100;
+}
+
+.Ftlittlcard3{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+.Ftlittlcard3 > h3{
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+.Ftlittlcard3 > h3 >p{
+    margin-left: 5px;
+    font-weight: 100;
+}
+
+.FtCard2{
+    height: 250px;
+}
+.FtCard2 > h1{
+    font-size: 25px;
+}
+.FtlittlCard4{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.FtlittlCard4:hover{
+    cursor: pointer;
+}
+.FtlittlCard5:hover{
+    cursor: pointer;
+}
+.FtlittlCard4 > a, .FtlittlCard4 > p{
+    color: #fff;
+    text-decoration: none;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.FtlittlCard5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.FtCard3{
+    height: 250px;
+}   
+.FtCard3 h1{
+    font-size: 25px;
+}
+.FtInpDiv{
+    background: #fff;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.FtLittlInpDiv > input{
+    width: 180px;
+    height: 50px;
+    background: #fff;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+}
+.FtLittlInpDiv > button{
+    margin-left: -5px;
+    width: 120px;
+    height: 49px;
+    background: #D5C2A6;
+    color: #000;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.FtLittlInpDiv > button:hover{
+    cursor: pointer;
+    background: #B49361;
+}
+
+.FtBigLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 35px;
+}
+.FtLinkDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 80%;
+}
+.FtLinkleft{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Ftrlogo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: -55px;
+}
+.Ftrlogo2 > img{
+    width: 100%;
+}
+.FtLinkleft > p, a, h1{
+    font-size: 15px;
+}
+.FtLinkleft > a{
+    color: #ffba89;
+    text-decoration: none;
+    margin-top: -10px;
+}
+.FtLinkleft > a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.FtLinkleft > P{
+    margin: 0;
+    color: #dac4b6;
+}
+.FtLinkleft > h1{
+    margin-top: 15px;
+    color: #dac4b6;
+}
+.FtLinkleft > h1 > a{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+.FtLinkleft > h1 > a:hover{
+    color: #ffffff;
+}
+
+.FtLinksDiv{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.FtLinks{
+    display: flex;
+    color: rgb(235, 232, 232); 
+}
+.FtLinks > p{
+    font-size: 16px;
+}
+.IconLink{
+    font-size: 25px;
+    color: #D5C2A6;
+}
+.FtLinks:hover{
+    cursor: pointer;
+}
+.FtLinks > p:hover{
+    color: #ffffff;
+
+}
+
+@media screen and (max-width:1024px) {
+    .Logofuter{
+        width: 250px;
+    }
+    .CardsFuter{
+        width: 95%;
+    }
+    .FtCard1{
+        width: 250px;
+    }
+    .Ftrlogo2{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .FtBigcards{
+        height: 700px;
+    }    
+    .CardsFuter{
+        flex-direction: column;
+        height: 700px;
+    }
+    
+    .FtCard1{
+        width: 90%;
+        margin-left: 75px;
+    }
+    .FtCard2{
+        width: 90%;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+    .FtCard3{
+        width: 90%;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+    .CardsFuter > hr{
+        width: 90%;
+        height: 0;
+        margin-left: 75px;
+    }
+    .FtInpDiv{
+        width: 80%;
+    }
+    .FtLittlInpDiv{
+        width: 100%;
+        background: none;
+    }
+    .FtLittlInpDiv > input{
+        width: 80%;
+    }
+    .FtLittlInpDiv > button{
+        right: 135;
+        position: absolute;
+
+    }    
+    
+    .Ftrlogo2{
+        /* width: 150px; */
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .FtBigcards{
+        height: 800px;
+    }
+    .FtCard1{
+        margin-left: 10px;
+    }
+    .FtCard2{
+        margin-left: 10px;
+    }
+    .FtCard3{
+        margin-left: 10px;
+    }
+    .CardsFuter > hr{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .FtLittlInpDiv > input{
+        width: 90%;
+    }
+    .FtLinkDiv{
+        width: 100%;
+        height: 450px;
+        flex-direction: column-reverse  ;
+    }
+    .FtLinkleft{
+        margin-top: 25px ;
+        width: 90%;
+        height: 450px;
+        margin-left: 20px;
+    }
+    .FtLinksDiv{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .FtLinks > p{
+        margin-left: 20px;
+    }
+    /* .Ftrlogo2{
+        display: none;
+    } */
+}
+
+@media screen and (max-width: 320px) {
+    .FtLittlInpDiv > input{
+        width: 75%;
+    }
+    .Logofuter{
+        margin-left: 30px;
+    }
+
+}

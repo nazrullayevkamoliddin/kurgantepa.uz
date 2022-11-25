@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s;
+  outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Poppins', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img{
+  width: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  width: 100%;
+}
+
+.root {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-a4 {
+  width: 210mm;
+  height: 1121px;
+  overflow: hidden;
+}
+
+.container2 {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.a4 {
+  width: 210mm;
+  height: 296.5mm;
+}
+
+.row {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 16px;
+}
+
+.my-16 {
+  margin: 16px 0px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.border {
+  /* border: 1px solid #000; */
+  box-shadow: 0px 5px 15px #999;
+  position: relative;
+}
+
+.copyright {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 3px;
+  font-size: 14px;
+}
+
+@media print {
+  .copyright {
+    display: block;
+  }
+}
+
+.button {
+  padding: 8px 16px;
+}
+
+.navbarss {
+  background: #2B385D;
+  padding-bottom: 20px;
+}
+
+/* 
+.nav-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #8A8A8A;/
+}
+
+.active-nav {
+  padding: 10px 15px;
+  color: #fff;
+} */
+
+
+/* ?????????????????   RESPONSIVE  ??????????????????? */
+
+
+@media screen and (min-width:1200) {}
+
+@media screen and (min-width:1024) {}
+
+@media screen and (min-width:962) {}
+
+@media screen and (min-width:768) {}
+
+@media screen and (min-width:576) {}

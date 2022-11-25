@@ -1,0 +1,302 @@
+.header {
+    height: 115vh;
+    background-image: linear-gradient(rgba(20, 19, 19, 0.646), rgba(0, 0, 0, 0.505)), url(../../assets/videos/gift.gif);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+   
+}
+.mainHeader {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+    
+}
+
+.mainHeader1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 100px;
+    margin-left: 18rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.mainHeader1 h1
+{
+    font-size: 1.9rem;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 1.6rem;
+    width: 30%;
+}
+
+.mainLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-bottom: 0;
+    /* margin-left: 100px; */
+}
+
+.mainLink .link {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #D5C2A6; */
+    border-radius: 100px;
+    font-size: 30px;
+    color: #D5C2A6;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 1px #D5C2A6;
+}
+
+.mainHeader .link:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.mainLink hr {
+    height: 1.5px;
+    width: 40px;
+    transform: rotate(90deg);
+    background-color: #e1ccad;
+    border: none;
+}
+.hrr{
+    height: 0.5px;
+    width: 38%;
+    transform: rotate(90deg);
+    background-color: #e1ccad;
+    border: none;
+    position: absolute;
+    margin-right: 87rem;
+    margin-top: 130px;
+
+}
+.hrr1{
+    height: 0.5px;
+    width: 38%;
+    transform: rotate(90deg);
+    background-color: #e1ccad;
+    border: none;
+    position: absolute;
+    margin-left: 87rem;
+    margin-top: 130px;
+}
+.mainParagraf p{
+    width: 400px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+    /* margin-left: 100px; */
+    margin-right: 10rem;
+}
+
+.footerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px 100px 0px 100px;
+}
+
+.footerHeader .line {
+    height: 1.5px;
+    width: 100px;
+    border: none;
+}
+
+.footerStatic h1{
+    color: #e1ccad;
+    font-size: 2.4rem;
+}
+
+.footerHeader p {
+    font-size: 13px;
+}
+
+.footerHeader .arrow {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footerHeader hr {
+    height: 3px;
+    background-color: #e1ccad;
+}
+
+
+.rightLine {
+    display: block;
+    height: 1px;
+    width: calc(100vw / 2 - 190px);
+    background: #e1ccad;
+    position: absolute;
+    top: 70px;
+    right: 88px;
+}
+
+.leftLine {
+    display: block;
+    height: 1px;
+    width: calc(100vw / 2 - 190px);
+    background: #e1ccad;
+    position: absolute;
+    top: 70px;
+    left: 88px;
+}
+
+
+@media(max-width:1024px) {
+
+    .mainHeader {
+       display: block;
+        margin-right: 100px;
+        margin-top: 0px;
+    }
+    .mainHeader1{
+        margin-top: 50px;
+    }
+.hrr{
+    display: none;
+}
+.hrr1{
+    display: none;
+}
+.mainLink{
+    margin: 0px 40px;
+}
+.mainHeader1 h1
+{
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+.mainLink hr {
+    width: 35px;
+}
+.mainParagraf p{
+    font-size: 0.8rem;
+    
+}
+.mainLink .link {
+    width: 35px;
+    height: 35px;
+    font-size: 28px;
+}
+.mainLink {
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.footerHeader {
+    margin-top: 0px;
+}
+.footerHeader .line {
+    height: 1px;
+    width: 20px;
+}
+.footerStatic h1{
+    font-size: 1.5rem;
+}
+
+.footerHeader p {
+    font-size: 10px;
+}
+
+.footerHeader .arrow {
+    font-size: 1.2rem;
+}
+}
+
+@media(max-width:768px) {
+    .mainLink {
+      display: none;
+    }
+    .mainHeader1 {
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 50px 0px;
+        justify-content: center;
+    }
+    .mainHeader1 .texth1 {
+        font-size: 1.2em;
+        line-height: 1.4em;
+        width: 190%;
+    }
+   
+    .mainParagraf p {
+        line-height: 1.4em;
+        width: 110%;
+        padding: 20px 0px 0px 120px;
+        text-align: center;
+    } 
+    .footerHeader {
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+@media screen and  (max-width:425px) {
+    .header{
+        height: 90vh;
+    }
+    .mainHeader1 .texth1 {
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    .mainParagraf p {
+        padding: 20px 0px 0px 40px;
+    } 
+    .footerHeader {
+        display: none;
+    }
+    /* .mainHeader1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+        .mainHeader1 h1 {
+        font-size: 2rem;
+        margin-left: 50px;
+    }
+
+    .mainParagraf p {
+        width: 300px;
+        font-size: 1.3rem;
+        margin-right: 40px;
+        line-height: 1.7rem;
+    } */
+
+    .leftLine {
+        display: none;
+    }
+
+    .rightLine {
+        display: none;
+    }
+}
+@media(max-width:320px){
+    .header{
+        height: 70vh;
+    }
+    .mainHeader1 .texth1 {
+        font-size: 0.5em;
+        line-height: 1.5em;
+    }
+    .mainParagraf p{
+        font-size: 0.5rem;
+        
+    }
+}

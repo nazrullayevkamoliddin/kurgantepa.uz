@@ -1,0 +1,131 @@
+@mixin df($a,$j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+@mixin dfc($a,$j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+    flex-direction: column;
+}
+@mixin dg($n,$p) {
+    display: grid;
+    grid-template-columns: repeat($n, auto);
+    grid-gap: $p;
+}
+$color: #D5C2A6;
+$color2: #2C395D;
+$color3: #fff;
+.main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    .bir{
+        background-color: #2B385D;
+    }
+    .menu{
+        height: 50px;
+        width: 100%;
+        background: #2B385D;
+    }
+}
+.admin{
+    @include dfc(center, center);
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 30px;
+    .sign{
+        width: 500px;
+        height: 500px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 7px rgba(9, 21, 35, 0.64);
+        @include dfc(center,flex-start);
+        padding: 30px;
+        h3{
+            color: $color2;
+            font-size: 30px;
+        }
+        p{
+            margin: 5px 0;
+        }
+        .inps{
+            width: 100%;
+            @include dfc(center,center);
+            margin: 50px 0;
+            input{
+                width: 100%;
+                height: 35px;
+                margin: 10px 0;
+                outline: none;
+                padding: 0 10px;
+                font-size: 16px;
+            }
+        }
+        button{
+            width: 120px;
+            height: 35px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+    .inter{
+        width: 500px;
+        min-height: 500px;
+        background: #fff;
+        @include dfc(center, flex-start);
+        box-shadow: 0 2px 7px #091523a3;
+        border-radius: 10px;
+        .top{
+            width: 100%;
+            @include df(center,center);
+            button{
+                width: 100%;
+                height: 40px;
+                border: none;
+                border-radius: 10px 10px 0px 0px;
+            }
+            button.active{
+                background:#2B385D;
+                border: 2px solid #fff;
+                color: #fff;
+                
+            }
+        }
+        .bottom{
+            width: 100%;
+            padding: 10px;
+            cursor: pointer;
+            @include dfc(center, flex-start);
+            input{
+                width: 100%;
+                height: 30px;
+                padding: 0 10px;
+            }
+            textarea{
+                min-width: 100%;
+                min-height: 100px;
+                padding: 0 10px;
+                margin: 10px 0;
+            }
+            .fayl{
+                width: 100%;
+                background: rgb(239, 239, 239);
+                @include dfc(center,center);
+                margin: 10px 0;
+            }
+            button{
+                width: 120px;
+                height: 30px;
+                cursor: pointer;
+                margin-top: 30px;
+                
+            }
+            button:hover{
+                background: #b0bbc8a3;
+                border-radius: 5px;
+            }
+        }
+    }
+}
